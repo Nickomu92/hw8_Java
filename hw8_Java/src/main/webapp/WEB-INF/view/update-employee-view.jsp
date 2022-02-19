@@ -18,7 +18,7 @@
     </nav>
     <div class="container">
         <form:form action="../editEmployee" modelAttribute="updateEmployee" cssClass="px-5 py-5">
-            <p class="h3 text-center text-warning my-3">Добавление нового работника:</p>
+            <p class="h3 text-center text-warning my-3">Изменение данных о работнике:</p>
             <form:hidden path="id"/>
             <div class="mb-3">
                 <form:label path="firstName" cssClass="form-label">Имя:</form:label>
